@@ -15,7 +15,7 @@ export function ShortSkills(
     {firstSkill, secondSkill, thirdSkill,
      fourthSkill, fifthSkill, sixthSkill,
      seventhSkill, eigthSkill, ninethSkill,
-     tenthSkill,
+     
     }: shortSkillsProps){
 
     return(
