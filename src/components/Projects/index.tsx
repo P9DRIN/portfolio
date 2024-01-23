@@ -18,17 +18,7 @@ export function Projects(){
             link="https://virtualbudgets.netlify.app" 
             repoLink="https://github.com/P9DRIN/virtualBudget"
             />
-            <Project 
-            key="virtualBudget"
-            src={virtualBudget} 
-            title="Virtual Budget"
-            description="O resultado que Virtual Budget traz
-            é facilitar o controle de gastos baseado em projetos e orçamentos de projetos. 
-            É possível adicionar novos projetos, novos orçamentos,
-            verificar o orçamento disponível, gastos e saldo total após gastos." 
-            link="https://virtualbudgets.netlify.app" 
-            repoLink="https://github.com/P9DRIN/virtualBudget"
-            />
+            
             
             
         
