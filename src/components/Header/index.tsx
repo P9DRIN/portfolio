@@ -8,13 +8,20 @@ export function Header(){
             behavior: 'smooth'
         })
     }
+    const scrollToContact = () => {
+        window.scrollTo({
+            top: 3000,
+            behavior: "smooth",
+        })
+    }
 
     const scrollToProjectMD = () => {
         window.scrollTo({
-            top: 2550,
+            top: 1400,
             behavior: 'smooth'
         })
     }
+
     const scrollToProjectLG = () => {
         window.scrollTo({
             top: 950,
@@ -25,7 +32,7 @@ export function Header(){
     return(
         <>
         <div className="h-[4rem] flex justify-around items-center">
-            <div className="mt-7 md:mt-7">
+            <div className="mt-7 md:mt-7 flex gap-5">
             
             <button onClick={scrollToProject} 
             className="md:text-2xl md:hidden">
@@ -40,6 +47,21 @@ export function Header(){
             <button onClick={scrollToProjectLG} className="md:text-2xl hidden md:hidden lg:block ">
                 <span className="text-sky-600">#</span>Projetos
             </button>
+
+            <button className="md:text-2xl md:hidden" onClick={scrollToContact}>
+            <span className="text-sky-600 ">#</span>Contato
+            </button>
+
+            <button className="md:text-2xl hidden md:block lg:hidden" onClick={scrollToContact}>
+            <span className="text-sky-600 ">#</span>Contato
+            </button>
+
+            <button className="md:text-2xl hidden md:hidden lg:block" onClick={scrollToContact}>
+            <span className="text-sky-600 ">#</span>Contato
+            </button>
+            
+
+
 
             </div>
             <div className="mt-7 md:mt-7 md:text-2xl">

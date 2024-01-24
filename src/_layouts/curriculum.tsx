@@ -1,15 +1,26 @@
-import { Container } from "@/components/Container";
+import { AcademicFormation } from "@/components/AcademicFormation";
+import { CurriculumContainer } from "@/components/CurriculumContainer";
+import { CurriculumGoals } from "@/components/CurriculumGoals";
+import { CurriculumSkills } from "@/components/CurriculumSkills";
+import { Experience } from "@/components/Experience";
+import { GenerateCurriculum } from "@/components/GenerateCurriculum";
+import { Languages } from "@/components/Languages";
+import { MainContactInfo } from "@/components/mainContactInfo";
 
 
 
 export function CurriculumLayout(){
     return(
         <>
-            <Container>
-                <div className="flex items-center justify-center w-[100%] h-[50%]">
-                    <h1 className="text-4xl">EM CONSTRUÇÃO!</h1>
-                </div>
-            </Container>
+            <CurriculumContainer>
+                <MainContactInfo/>
+                <CurriculumGoals/>
+                <AcademicFormation/>
+                <Experience/>
+                <CurriculumSkills/>
+                <Languages/>
+                <GenerateCurriculum/>
+            </CurriculumContainer>
         </>
     )
 }

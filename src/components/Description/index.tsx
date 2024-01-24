@@ -6,7 +6,7 @@ export function Description(){
         <>
         <div className="flex items-center flex-col-reverse lg:flex-row lg:justify-evenly lg:mt-[5rem] gap-5 mt-5 md:mt-8 antialiased">
 
-            <div className="text-justify w-[18rem] md:w-[25rem] lg:w-[35rem]">
+            <div className="text-justify w-[17rem] md:w-[29rem] lg:w-[35rem]">
 
             <h4 className="text-sky-400 text-3xl">Oi! Meu nome é</h4>
 
@@ -27,7 +27,7 @@ export function Description(){
                 <span className="text-white bg-sky-600 w-[4rem] md:w-[6rem] md:text-lg text-sm rounded-md flex items-center justify-center hover:bg-sky-500">Git</span>
             </div>
 
-            <div className="mt-5 flex items-center justify-center mb-5 gap-2">
+            <div className="mt-5 flex items-center justify-center mb-5 gap-2 ">
 
                 <a href="mailto:pedrohenriquelimasilva2837@hotmail.com"className=" bg-sky-950 font-semibold hover:bg-sky-700 p-3 md:p-5 md:text-2xl">Entrar em contato</a>
                 <span className=" text-gray-500 ">OU</span>

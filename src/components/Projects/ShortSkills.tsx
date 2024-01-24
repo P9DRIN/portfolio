@@ -19,7 +19,7 @@ export function ShortSkills(
     }: shortSkillsProps){
 
     return(
-        <div className="flex flex-wrap gap-1 w-[100%] justify-center items-center">
+        <div className="flex flex-wrap gap-1 w-[100%] md:w-[50%] lg:w-[30%] justify-center items-center border border-b-neutral-500 p-5">
             <span className="bg-slate-700 w-[7rem] flex justify-center text-sky-400 font-semibold">{firstSkill}</span>
             <span className="bg-slate-700 w-[7rem] flex justify-center text-sky-400 font-semibold">{secondSkill}</span>
             <span className="bg-slate-700 w-[7rem] flex justify-center text-sky-400 font-semibold">{thirdSkill}</span>
