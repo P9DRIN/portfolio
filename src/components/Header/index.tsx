@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export function Header(){
 
     const scrollToProject = () => {
@@ -9,14 +11,20 @@ export function Header(){
 
     const scrollToProjectMD = () => {
         window.scrollTo({
-            top: 1400,
+            top: 2550,
+            behavior: 'smooth'
+        })
+    }
+    const scrollToProjectLG = () => {
+        window.scrollTo({
+            top: 950,
             behavior: 'smooth'
         })
     }
 
     return(
         <>
-        <div className="h-[4rem] flex justify-around">
+        <div className="h-[4rem] flex justify-around items-center">
             <div className="mt-7 md:mt-7">
             
             <button onClick={scrollToProject} 
@@ -25,16 +33,20 @@ export function Header(){
             </button>
 
             <button onClick={scrollToProjectMD}
-            className="md:text-2xl hidden md:block">
+            className="md:text-2xl hidden md:block lg:hidden">
                 <span className="text-sky-600">#</span>Projetos
             </button>
 
-            <button className="md:text-2xl hidden ">
+            <button onClick={scrollToProjectLG} className="md:text-2xl hidden md:hidden lg:block ">
                 <span className="text-sky-600">#</span>Projetos
             </button>
 
             </div>
-            <div><h2>teste</h2></div>
+            <div className="mt-7 md:mt-7 md:text-2xl">
+                <Link to='/curriculum' className="text-sky-600">
+                    #<span className="text-neutral-100">Curriculo</span>
+                </Link>
+            </div>
         </div>
         </>
     )

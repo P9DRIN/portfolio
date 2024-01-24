@@ -4,7 +4,7 @@ import { GithubLogo, LinkedinLogo, WhatsappLogo } from "phosphor-react";
 export function Description(){
     return(
         <>
-        <div className="flex items-center flex-col-reverse lg:flex-row lg:justify-evenly lg:mt-[5rem] gap-5 mt-5 md:mt-8">
+        <div className="flex items-center flex-col-reverse lg:flex-row lg:justify-evenly lg:mt-[5rem] gap-5 mt-5 md:mt-8 antialiased">
 
             <div className="text-justify w-[18rem] md:w-[25rem] lg:w-[35rem]">
 
@@ -36,7 +36,7 @@ export function Description(){
                     <a href="https://github.com/P9DRIN"
                      className="text-gray-500 hover:text-sky-900 "><GithubLogo className="text-3xl md:text-4xl"/></a>
 
-                    <a href="linkedin.com/in/p9drin/" className="text-gray-500 hover:text-sky-900"><LinkedinLogo className="text-3xl md:text-4xl"/></a>
+                    <a href="https://linkedin.com/in/p9drin/" className="text-gray-500 hover:text-sky-900"><LinkedinLogo className="text-3xl md:text-4xl"/></a>
 
                     <a href="https://api.whatsapp.com/send?phone=5512992391602" className="text-gray-500 hover:text-sky-900"><WhatsappLogo className="text-3xl md:text-4xl"/></a>
                 </div>

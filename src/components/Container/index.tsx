@@ -6,7 +6,7 @@ interface ContainerProps{
 
 export function Container({children}: ContainerProps){
     return(
-        <div className="h-[200vh] bg-neutral-900 ">
+        <div className="h-[200vh]  bg-neutral-900 antialiased ">
             {children}
         </div>
     )

@@ -18,10 +18,7 @@ export function Projects(){
             link="https://virtualbudgets.netlify.app" 
             repoLink="https://github.com/P9DRIN/virtualBudget"
             />
-            
-            
-            
-        
+
         </div>
         </>
     )

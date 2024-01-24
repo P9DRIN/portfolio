@@ -1,21 +1,12 @@
-import { Header } from "./components/Header"
-import { ThemeProvider } from "./themes/theme-provider"
-import { Container } from "./components/Container"
-import { Description } from "./components/Description"
-import { DescriptionTwo } from "./components/DescriptionTwo"
 import './global.css'
+import { RouterProvider } from "react-router-dom"
+import { router } from "./routes"
 
 export function App() {
   return (
     <>
       <div>
-        <ThemeProvider storageKey="phlstheme" defaultTheme="dark">
-          <Container>
-          <Header/>
-          <Description/>
-          <DescriptionTwo/>
-          </Container>
-        </ThemeProvider>
+        <RouterProvider router={router}/>
       </div>
       
     </>
