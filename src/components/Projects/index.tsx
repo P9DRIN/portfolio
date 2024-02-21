@@ -1,7 +1,7 @@
 import { CaretRight } from "phosphor-react"
 import { Project } from "./Project"
 import virtualBudget from '/virtualBudget.jpg'
-import smorp from '/smorp.jpg'
+import smorp from '/smorp.png'
 import { ShortSkills } from "./ShortSkills"
 
 export function Projects(){
