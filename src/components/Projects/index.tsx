@@ -2,6 +2,7 @@ import { CaretRight } from "phosphor-react"
 import { Project } from "./Project"
 import virtualBudget from '/virtualBudget.jpg'
 import smorp from '/smorp.jpg'
+import sshave from '/sshave.jpg'
 import { ShortSkills } from "./ShortSkills"
 
 export function Projects(){
@@ -29,13 +30,25 @@ export function Projects(){
             key={smorp}
             src={smorp}
             title="Smorp"
-            description="Smorp (ainda em construção utilizando a API do mercado livre) é um e-commerce. Futuramente, será um ecommerce de roupas básicas. Tem como objetivo trazer simplicidade e agilidade na compra, sem muita poluição visual como é encontrado nas lojas hoje em dia"
+            description="Smorp é um e-commerce de roupas básicas. Tem como objetivo trazer simplicidade e agilidade na compra, sem muita poluição visual como é encontrado nas lojas hoje em dia e trazer uma excelente experiência ao usuário!"
             link="https://smorp.netlify.app"
             repoLink="https://github.com/P9DRIN/smorp"
             />
             <ShortSkills key="first" 
-                    firstSkill="React" secondSkill="NodeJS" thirdSkill="Typescript" 
-                    fourthSkill="React-router-dom" fifthSkill="Axios"  
+                    firstSkill="React" secondSkill="NodeJS" thirdSkill="Express" 
+                    fourthSkill="MongoDB" fifthSkill="Typescript" sixthSkill="React-router-dom" seventhSkill="Axios" eigthSkill="Styled-Components" ninethSkill="Zod"
+            />
+            <Project
+            key={sshave}
+            src={sshave}
+            title="SchedShave"
+            description="Ainda em construção! Sistema de Gerenciamento Web de Agendamentos para cortes de cabelo!"
+            link="https://scheduleshave.netlify.app"
+            repoLink="https://github.com/P9DRIN/sshave"
+            />
+            <ShortSkills key="first" 
+                    firstSkill="NextJS" secondSkill="React" thirdSkill="Typescript" 
+                    fourthSkill="TailwindCSS" fifthSkill="ShadcnUI"  
             />
         </div>
         </>
