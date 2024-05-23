@@ -10,7 +10,7 @@ export function Header(){
     }
     const scrollToContact = () => {
         window.scrollTo({
-            top: 3000,
+            top: 4000,
             behavior: "smooth",
         })
     }
@@ -31,32 +31,32 @@ export function Header(){
 
     return(
         <>
-        <div className="h-[4rem] flex justify-around items-center">
-            <div className="mt-7 md:mt-7 flex gap-5">
+        <div className="h-[4rem] flex justify-around items-center border-b border-b-neutral-800 ">
+            <div className="mt-1 md:mt-0 flex gap-5 ">
             
             <button onClick={scrollToProject} 
-            className="md:text-2xl md:hidden">
+            className="md:text-2xl md:hidden hover:text-neutral-300">
                 <span className="text-sky-600">#</span>Projetos
             </button>
 
             <button onClick={scrollToProjectMD}
-            className="md:text-2xl hidden md:block lg:hidden">
+            className="md:text-2xl hidden md:block lg:hidden hover:text-neutral-300">
                 <span className="text-sky-600">#</span>Projetos
             </button>
 
-            <button onClick={scrollToProjectLG} className="md:text-2xl hidden md:hidden lg:block ">
+            <button onClick={scrollToProjectLG} className="md:text-2xl hidden md:hidden lg:block  hover:text-neutral-300">
                 <span className="text-sky-600">#</span>Projetos
             </button>
 
-            <button className="md:text-2xl md:hidden" onClick={scrollToContact}>
+            <button className="md:text-2xl md:hidden hover:text-neutral-300" onClick={scrollToContact}>
             <span className="text-sky-600 ">#</span>Contato
             </button>
 
-            <button className="md:text-2xl hidden md:block lg:hidden" onClick={scrollToContact}>
+            <button className="md:text-2xl hidden md:block lg:hidden hover:text-neutral-300" onClick={scrollToContact}>
             <span className="text-sky-600 ">#</span>Contato
             </button>
 
-            <button className="md:text-2xl hidden md:hidden lg:block" onClick={scrollToContact}>
+            <button className="md:text-2xl hidden md:hidden lg:block hover:text-neutral-300" onClick={scrollToContact}>
             <span className="text-sky-600 ">#</span>Contato
             </button>
             
@@ -64,9 +64,9 @@ export function Header(){
 
 
             </div>
-            <div className="mt-7 md:mt-7 md:text-2xl">
+            <div className="mt-1 md:mt-0 md:text-2xl">
                 <Link to='/curriculum' className="text-sky-600">
-                    #<span className="text-neutral-100">Curriculo</span>
+                    #<a href="/phlsCurriculum.pdf" className="text-neutral-100 hover:text-neutral-300" download>Curriculo</a>
                 </Link>
             </div>
         </div>

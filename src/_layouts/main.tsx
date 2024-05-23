@@ -1,7 +1,7 @@
-import { Contact } from "@/components/Contact";
+import { Contact } from "@/components/MainComponents/Contact";
 import { Container } from "@/components/Container";
-import { Description } from "@/components/Description";
-import { DescriptionTwo } from "@/components/DescriptionTwo";
+import { Description } from "@/components/MainComponents/Description";
+import { DescriptionTwo } from "@/components/MainComponents/DescriptionTwo";
 import { Header } from "@/components/Header";
 import { ThemeProvider } from "@/themes/theme-provider";
 
