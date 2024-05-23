@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 
 export function Header(){
 
@@ -65,9 +64,9 @@ export function Header(){
 
             </div>
             <div className="mt-1 md:mt-0 md:text-2xl">
-                <Link to='/curriculum' className="text-sky-600">
+                <span className="text-sky-600">
                     #<a href="/phlsCurriculum.pdf" className="text-neutral-100 hover:text-neutral-300" download>Curriculo</a>
-                </Link>
+                </span>
             </div>
         </div>
         </>
