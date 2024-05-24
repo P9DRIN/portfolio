@@ -15,7 +15,7 @@ export function Skill({children}: SkillProps){
         <>
         {
             skeleton ? (
-                 <Skeleton isLoading={true} className="text-gray-200 w-[6rem] md:w-[12rem] md:p-4 md:text-xl bg-sky-900 p-3 flex items-center gap-1"/>
+                 <Skeleton isLoading={true} className="text-gray-200 w-[6rem] md:w-[12rem] md:p-5 md:text-xl bg-sky-900 p-3 flex-wrap flex items-center gap-1"/>
             ) :
             (
                 <>

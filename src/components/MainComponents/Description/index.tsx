@@ -54,12 +54,13 @@ export function Description(){
                 <span className=" text-gray-500 ">OU</span>
                     
                 <div className="flex gap-3">
-                    <a href="https://github.com/P9DRIN"
-                     className="text-gray-400 hover:text-sky-500 "><GithubLogo className="text-3xl md:text-4xl"/></a>
 
                     <a href="https://linkedin.com/in/p9drin/" className="text-gray-400 hover:text-sky-500"><LinkedinLogo className="text-3xl md:text-4xl"/></a>
-
+                    
                     <a href="https://api.whatsapp.com/send?phone=5512992391602" className="text-gray-400 hover:text-sky-500"><WhatsappLogo className="text-3xl md:text-4xl"/></a>
+
+                    <a href="https://github.com/P9DRIN"
+                     className="text-gray-400 hover:text-sky-500 "><GithubLogo className="text-3xl md:text-4xl"/></a>
                 </div>
 
             </div>
